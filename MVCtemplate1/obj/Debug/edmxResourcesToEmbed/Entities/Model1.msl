@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SimModelStoreContainer" CdmEntityContainer="SimEntities">
+    <EntitySetMapping Name="Mahasiswas">
+      <EntityTypeMapping TypeName="SimModel.Mahasiswa">
+        <MappingFragment StoreEntitySet="Mahasiswa">
+          <ScalarProperty Name="nim" ColumnName="nim" />
+          <ScalarProperty Name="nama" ColumnName="nama" />
+          <ScalarProperty Name="tanggalLahir" ColumnName="tanggalLahir" />
+          <ScalarProperty Name="jenisKelamin" ColumnName="jenisKelamin" />
+          <ScalarProperty Name="alamat" ColumnName="alamat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
